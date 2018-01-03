@@ -1,0 +1,270 @@
+/* uzivatel-style */
+h1 {
+    padding-top: 30px;
+}
+
+h2 {
+    padding-top: 40px;
+}
+
+p {
+    font-size: 18px;
+}
+
+@media only screen and (min-width: 760px),
+(max-device-width: 768px) and (min-device-width: 1024px) {
+    body {
+        position: relative;
+        padding: 50px;
+        background-color: #111111;
+    }
+}
+
+.nav-r form {
+    float: left;
+    padding: 15px;
+}
+
+.nav-r form input {
+    float: left;
+    height: 30px;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #ccc;
+    font-size: 14px;
+    color: #111;
+    line-height: 30px;
+}
+
+.nav-r form button {
+    float: left;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: #f3f3f3;
+    font-size: 14px;
+    color: #111;
+    cursor: pointer;
+}
+
+.nav-r form button:hover {
+    background-color: #ccc;
+}
+
+/* autor-style */
+
+#moje {
+    padding-top: 50px;
+    min-height: 1000px;
+    background-color: #478241;
+}
+
+#pridat {
+    padding-top: 50px;
+    min-height: 1000px;
+    background-color: #358753;
+}
+
+#zhodnocene {
+    padding-top: 50px;
+    min-height: 1000px;
+    background-color: #87bf87;
+}
+
+#but1, #but2 {
+    display: block;
+    max-width: 60px;
+    margin-right: 20px;
+    height: 40px;
+    border: none;
+    background-color: #222;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#but1:hover, #but2:hover {
+    background-color: #444;
+}
+
+/* recenzent-style */
+
+#hodnoceni {
+    padding-top: 50px;
+    min-height: 1500px;
+    background-color: #6178c0;
+}
+
+/* administrator-style */
+
+#uzivatele {
+    padding-top: 50px;
+    min-height: 1000px;
+    color: #fff;
+    background-color: #824740;
+}
+
+#prirazeni {
+    padding-top: 50px;
+    min-height: 1000px;
+    color: #fff;
+    background-color: #692e20;
+}
+
+#schvaleni {
+    padding-top: 50px;
+    min-height: 1000px;
+    color: #fff;
+    background-color: #5d282a;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #85674e;
+}
+
+tr:nth-child(even) {
+    background-color: #bfb020;
+}
+
+/* style pro tabulky */
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+        border: 1px solid #ccc;
+    }
+
+    td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    #uzivatele td:nth-of-type(1):before {
+        content: "Uživatel";
+    }
+
+    #uzivatele td:nth-of-type(2):before {
+        content: "Role";
+    }
+
+    #uzivatele td:nth-of-type(3):before {
+        content: "Změna role";
+    }
+
+    #uzivatele td:nth-of-type(4):before {
+        content: "Zablokovat";
+    }
+
+    #uzivatele td:nth-of-type(5):before {
+        content: "Smazat";
+    }
+
+    #prirazeni td:nth-of-type(1):before {
+        content: "Název příspěvku";
+    }
+
+    #prirazeni td:nth-of-type(2):before {
+        content: "Autor";
+    }
+
+    #prirazeni td:nth-of-type(3):before {
+        content: "Přiřazení";
+    }
+
+    #prirazeni td:nth-of-type(4):before {
+        content: "Recenze";
+    }
+
+    #prirazeni td:nth-of-type(5):before {
+        content: "Jazyk";
+    }
+
+    #prirazeni td:nth-of-type(6):before {
+        content: "Technika";
+    }
+
+    #prirazeni td:nth-of-type(7):before {
+        content: "Téma";
+    }
+
+    #prirazeni td:nth-of-type(8):before {
+        content: "Doporučení";
+    }
+
+    #schvaleni td:nth-of-type(1):before {
+        content: "Název";
+    }
+
+    #schvaleni td:nth-of-type(2):before {
+        content: "Jazyk";
+    }
+
+    #schvaleni td:nth-of-type(3):before {
+        content: "Technika";
+    }
+
+    #schvaleni td:nth-of-type(4):before {
+        content: "Téma";
+    }
+
+    #schvaleni td:nth-of-type(5):before {
+        content: "Doporučení";
+    }
+
+    #schvaleni td:nth-of-type(6):before {
+        content: "Schválení";
+    }
+
+    #zhodnocene td:nth-of-type(1):before {
+        content: "Jazyk";
+    }
+
+    #zhodnocene td:nth-of-type(2):before {
+        content: "Technika";
+    }
+
+    #zhodnocene td:nth-of-type(3):before {
+        content: "Téma";
+    }
+
+    #zhodnocene td:nth-of-type(4):before {
+        content: "Doporučení";
+    }
+
+}
+
+

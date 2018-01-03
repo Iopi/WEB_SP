@@ -1,0 +1,164 @@
+body {
+    background-color: #899cb9;
+}
+
+h1 {
+    padding-top: 150px;
+}
+
+.nav-r form {
+    float: left;
+    padding: 15px;
+}
+
+.nav-r form input {
+    float: left;
+    max-width: 140px;
+    height: 30px;
+    padding: 0 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #86be91;
+    font-size: 14px;
+    color: #111;
+    line-height: 30px;
+}
+
+.nav-r form button {
+    float: left;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: #f3f3f3;
+    font-size: 14px;
+    color: #111;
+    cursor: pointer;
+}
+
+.nav-r form button:hover {
+    background-color: #ccc;
+}
+
+.main-container {
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.main-container h2 {
+    font-size: 40px;
+    color: #111;
+    line-height: 50px;
+    text-align: center;
+}
+
+/*signup.php*/
+
+.signup-form {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.signup-form input {
+    width: 90%;
+    height: 40px;
+    padding: 0 5%;
+    margin-bottom: 4px;
+    border: none;
+    background-color: #fff;
+    font-size: 16px;
+    color: #111;
+    line-height: 40px;
+}
+
+.signup-form button {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: #222;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #111;
+
+}
+
+/* successfulReg.php, userIsBlocked */
+
+.sucReg, .blockedUser {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.sucReg button, .blockedUser button {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: #222;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sucReg button:hover, .blockedUser button:hover {
+    background-color: #111;
+}
+
+/* successfulReg.php */
+
+.sucReg p {
+    padding-left: 30px;
+    padding-top: 100px;
+    font-size: 30px;
+    width: 1000px;
+    color: #2dbe09;
+}
+
+/* userIsBlocked */
+
+.blockedUser p {
+    padding-left: 45px;
+    padding-top: 100px;
+    font-size: 30px;
+    width: 1000px;
+    color: #be2c31;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
